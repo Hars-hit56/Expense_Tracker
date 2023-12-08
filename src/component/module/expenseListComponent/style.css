@@ -1,0 +1,52 @@
+
+.expenseContainer{
+    /* width: 46rem; */
+    height: min-content;
+    background: #fff;
+    border-radius: .4rem;
+    padding: 1rem 1rem;
+    /* flex: 3; */
+    flex-basis: 60%;
+    
+}
+.expensesubcontainer{
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    text-transform: capitalize;
+}
+.expenseColoumdeatils h2{
+    margin: 0 0 .8rem 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+   
+}
+.expenseColoumdeatils .values{
+    margin: .5rem 0;
+    font-size: 1rem;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    
+}
+
+
+
+
+@media screen and (max-width:500px) {
+  .expensesubcontainer{
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width:900px) {
+.expenseContainer h2{
+font-size: 1rem;}
+.expensesubcontainer p{
+font-size: 1rem;
+}
+}
+@media screen and (max-width:1150px) {
+.expenseContainer{
+  flex-basis: 55%;
+}
+}
